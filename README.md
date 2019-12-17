@@ -98,5 +98,9 @@ https://blog.csdn.net/hotpotbo/article/details/80853946
 sudo pon pptp0
 
 ```
+```shell
+sudo pptpsetup --delete pptp0
+sudo pptpsetup --create pptp0 --server 172.21.13.156  --username  wantt126 --password wantt126
+```
 
 ref:https://unix.stackexchange.com/questions/235231/insserv-warning-script-xxx-sh-missing-lsb-tags-and-overrides
